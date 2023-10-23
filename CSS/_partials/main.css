@@ -1,0 +1,8 @@
+main {
+    color: var(--colore-1);
+}
+
+main section:nth-of-type(odd) {
+    background-color: var(--colore-3);
+    color: var(--colore-2);
+}

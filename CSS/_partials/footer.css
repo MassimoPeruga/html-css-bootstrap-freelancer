@@ -3,6 +3,30 @@ footer {
     color: var(--colore-2);
 }
 
+#info {
+    padding-top: 64px;
+    padding-bottom: 77px;
+}
+
+#info h5 {
+    text-transform: uppercase;
+}
+
+#info .ms_square {
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+}
+
 #copyright {
     background-color: var(--colore-1);
+    padding-top: 44px;
+    padding-bottom: 54px;
+}
+
+@media screen and (min-width:992px) {
+    #info {
+        padding-bottom: 57px;
+    }
 }

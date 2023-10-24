@@ -1,3 +1,17 @@
+/* Reset */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* /Reset */
+
 /* Utilities */
 h2 {
     text-transform: uppercase;
@@ -6,6 +20,10 @@ h2 {
 
 .ms_color {
     color: currentColor;
+}
+
+.ms_evidenziato {
+    color: var(--colore-3);
 }
 
 /* Utilities */

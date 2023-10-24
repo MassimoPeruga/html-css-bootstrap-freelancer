@@ -37,6 +37,11 @@ main section:nth-of-type(odd) {
     padding-bottom: 30px;
 }
 
+#about .ms_custom_button:hover,
+#about .ms_custom_button:active {
+    color: var(--colore-3);
+}
+
 /* /About */
 
 /* Contact */
@@ -49,9 +54,25 @@ label.ms_color {
     font-weight: 500;
 }
 
-.ms_custom_button {
+#contact-me .ms_custom_input:focus {
+    color: var(--colore-1);
+    box-shadow: 0 0 0 0.25rem var(--colore-4);
+}
+
+#contact-me .ms_custom_input:focus+label {
+    color: var(--colore-4);
+}
+
+#contact-me .ms_custom_button {
     background-color: var(--colore-3);
     color: var(--colore-2);
+}
+
+#contact-me .ms_custom_button:hover,
+#contact-me .ms_custom_button:active {
+    background-color: var(--colore-2);
+    color: var(--colore-1);
+    border-color: var(--colore-1);
 }
 
 /* /Contact */

@@ -19,6 +19,12 @@ footer {
     line-height: 54px;
 }
 
+#info .ms_custom_button:hover,
+#info .ms_custom_button:active {
+    color: var(--colore-4);
+    border-color: var(--colore-4);
+}
+
 #copyright {
     background-color: var(--colore-1);
     padding-top: 44px;

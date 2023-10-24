@@ -1,3 +1,36 @@
-hr {
-    opacity: 1;
+/* Utilities */
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
 }
+
+.ms_color {
+    color: currentColor;
+}
+
+/* Utilities */
+
+/* Elemento separatore */
+.ms_separatore span::before {
+    content: "";
+    display: inline-block;
+    width: 12.5vw;
+    height: 4px;
+    border-radius: 2px;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-color: currentColor;
+}
+
+.ms_separatore span::after {
+    content: "";
+    display: inline-block;
+    width: 12.5vw;
+    height: 4px;
+    border-radius: 2px;
+    margin-left: 10px;
+    vertical-align: middle;
+    background-color: currentColor;
+}
+
+/* Elemento separatore */

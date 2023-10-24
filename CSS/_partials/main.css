@@ -1,3 +1,4 @@
+/* Main */
 main {
     color: var(--colore-1);
 }
@@ -6,3 +7,75 @@ main section:nth-of-type(odd) {
     background-color: var(--colore-3);
     color: var(--colore-2);
 }
+
+/* Jumbo */
+#jumbo {
+    padding: 43px 0;
+}
+
+#jumbo .ms_content img {
+    width: 230px;
+}
+
+/* Jumbo */
+
+/* Portfolio */
+#portfolio {
+    padding: 55px 0;
+}
+
+#portfolio .ms_content {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* /Portfolio */
+
+/* About */
+#about {
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+
+/* /About */
+
+/* Contact */
+#contact-me {
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+
+label.ms_color {
+    font-weight: 500;
+}
+
+.ms_custom_button {
+    background-color: var(--colore-3);
+    color: var(--colore-2);
+}
+
+/* /Contact */
+/* /Main */
+
+/* Responsive */
+@media screen and (min-width:992px) {
+    #jumbo {
+        padding: 74px 0;
+    }
+
+    #portfolio {
+        padding: 90px 0;
+    }
+
+    #about {
+        padding-top: 90px;
+        padding-bottom: 60px;
+    }
+
+    #contact-me {
+        padding-top: 90px;
+        padding-bottom: 60px;
+    }
+}
+
+/* /Responsive */

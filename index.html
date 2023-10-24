@@ -19,9 +19,29 @@
 
 <body>
     <header>
-        <div class="container d-flex justify-content-between">
-            <div>content</div>
-            <div>content</div>
+        <div class="container py-3">
+            <nav class="navbar navbar-expand-lg text-uppercase" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold" href="#">Start Bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
     <main>
@@ -38,13 +58,13 @@
             <div class="container">
                 <h2>Portfolio</h2>
                 <hr>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">content</div>
-                    <div class="col-12 col-md-6 col-lg-4">content</div>
-                    <div class="col-12 col-md-6 col-lg-4">content</div>
-                    <div class="col-12 col-md-6 col-lg-4">content</div>
-                    <div class="col-12 col-md-6 col-lg-4">content</div>
-                    <div class="col-12 col-md-6 col-lg-4">content</div>
+                <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col">content</div>
+                    <div class="col">content</div>
+                    <div class="col">content</div>
+                    <div class="col">content</div>
+                    <div class="col">content</div>
+                    <div class="col">content</div>
                 </div>
             </div>
         </section>
@@ -54,11 +74,11 @@
                     <h2>About</h2>
                     <hr>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-md-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, nulla
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, nulla
                         quasi. Enim, at optio ab tempora repellat magni perspiciatis. Quos, praesentium. Amet obcaecati
                         doloremque animi non consectetur voluptate, mollitia perferendis?</div>
-                    <div class="col-12 col-md-6">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                    <div class="col">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
                         perferendis nulla dolore aut dolores et! Omnis iusto non, repellendus veritatis praesentium
                         aliquam ex! Eveniet animi maiores dignissimos facilis pariatur earum?</div>
                 </div>
@@ -79,10 +99,10 @@
     <footer class="text-center">
         <section>
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-4">content</div>
-                    <div class="col-12 col-md-4">content</div>
-                    <div class="col-12 col-md-4">content</div>
+                <div class="row row-cols-1 row-cols-md-3 justify-content-between">
+                    <div class="col">content</div>
+                    <div class="col">content</div>
+                    <div class="col">content</div>
                 </div>
             </div>
         </section>
@@ -90,6 +110,10 @@
             <div>content</div>
         </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
